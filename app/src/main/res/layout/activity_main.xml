@@ -29,6 +29,15 @@
             android:layout_marginStart="25dp"
             android:src="@drawable/smartphone"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"
+            android:text="Mobile Computing"
+            android:textSize="22sp"/>
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -45,6 +54,15 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="25dp"
             android:src="@drawable/parallel_tasks"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"
+            android:text="Parallel Programming"
+            android:textSize="20sp"/>
 
     </RelativeLayout>
 
@@ -63,6 +81,15 @@
             android:layout_marginStart="25dp"
             android:src="@drawable/software"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"
+            android:text="Software Engineering"
+            android:textSize="20sp"/>/>
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -78,7 +105,16 @@
             android:layout_height="50dp"
             android:layout_centerVertical="true"
             android:layout_marginStart="25dp"
-            android:src="@drawable/smartphone"/>
+            android:src="@drawable/theory" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"
+            android:text="Discrete Structures 2"
+            android:textSize="20sp" />
 
     </RelativeLayout>
 
