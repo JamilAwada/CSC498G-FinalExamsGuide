@@ -45,32 +45,6 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
-        android:background="@drawable/item_bg">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="25dp"
-            android:src="@drawable/parallel_tasks"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="25dp"
-            android:text="Parallel Programming"
-            android:textSize="20sp"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/panel_parallel"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="400dp"
         android:background="@drawable/item_bg">
 
@@ -79,16 +53,42 @@
             android:layout_height="50dp"
             android:layout_centerVertical="true"
             android:layout_marginStart="25dp"
-            android:src="@drawable/software"/>
+            android:src="@drawable/software" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
             android:layout_marginEnd="25dp"
             android:text="Software Engineering"
-            android:textSize="20sp"/>/>
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/panel_parallel"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/item_bg">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/parallel_tasks" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"
+            android:text="Parallel Programming"
+            android:textSize="20sp" />/>
 
     </RelativeLayout>
 

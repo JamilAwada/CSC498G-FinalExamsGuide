@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
             db = this.openOrCreateDatabase("examsdb", MODE_PRIVATE, null);
             db.execSQL("CREATE Table IF NOT EXISTS exam (name VARCHAR, url VARCHAR)");
             // To be ran once and then commented out
-//            db.execSQL("INSERT INTO exam (name, url) VALUES ('Mobile Computing', 'https://developer.android.com/docs')");
-//            db.execSQL("INSERT INTO exam (name, url) VALUES ('Parallel Programming', 'https://www.open-mpi.org/doc/')");
-//            db.execSQL("INSERT INTO exam (name, url) VALUES ('Software Engineering', 'https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/')");
-//            db.execSQL("INSERT INTO exam (name, url) VALUES ('Discrete Structures 2', 'https://www.youtube.com/watch?v=dNRDvLACg5Q')");
+            db.execSQL("INSERT INTO exam (name, url) VALUES ('Mobile Computing', 'https://developer.android.com/docs')");
+            db.execSQL("INSERT INTO exam (name, url) VALUES ('Parallel Programming', 'https://www.open-mpi.org/doc/')");
+            db.execSQL("INSERT INTO exam (name, url) VALUES ('Software Engineering', 'https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/')");
+            db.execSQL("INSERT INTO exam (name, url) VALUES ('Discrete Structures 2', 'https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/one.html')");
 
         } catch (Exception e){
             e.printStackTrace();
@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 URL = c.getString(n);
                 Intent goToWebPage = new Intent(getApplicationContext(), WebViewActivity.class);
                 goToWebPage.putExtra("URL", URL);
+                startActivity(goToWebPage);
             }
         });
 
@@ -70,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 URL = c.getString(n);
                 Intent goToWebPage = new Intent(getApplicationContext(), WebViewActivity.class);
                 goToWebPage.putExtra("URL", URL);
+                startActivity(goToWebPage);
             }
         });
 
@@ -83,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 URL = c.getString(n);
                 Intent goToWebPage = new Intent(getApplicationContext(), WebViewActivity.class);
                 goToWebPage.putExtra("URL", URL);
+                startActivity(goToWebPage);
             }
         });
 
@@ -96,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
                 URL = c.getString(n);
                 Intent goToWebPage = new Intent(getApplicationContext(), WebViewActivity.class);
                 goToWebPage.putExtra("URL", URL);
+                startActivity(goToWebPage);
             }
         });
 
